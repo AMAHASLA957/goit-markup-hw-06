@@ -22,3 +22,19 @@
     font-weight: 700;
     font-style: normal;
 }
+.head-page .link-head {
+    color: #2E2F42;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+    .contacts .my-contacts {
+        color: #434455;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+/* Секция 1 */
+.section1-background {
+background-color: #2E2F42;
+}
