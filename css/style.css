@@ -59,7 +59,7 @@
 .head-page .link-head:hover {
     color:#404bbf
 }
-.head-page .link-head:active{
+.head-page .link-head:focus{
     color: #404bbf;
 }
 /* Контактная информация */
@@ -78,7 +78,7 @@ font-style: normal;
 .contacts .my-contacts:hover {
     color: #404bbf;
 }
-.contacts .my-contacts:active {
+.contacts .my-contacts:focus {
     color: #404bbf;
 }
     /* Тело */
@@ -110,11 +110,12 @@ background-color: #2E2F42;
         border-color: #4D5AE5;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        cursor: pointer;
 }
 .button-blue:hover {
     background-color: #404BBF;
 }
-.button-blue:active {
+.button-blue:focus {
     background-color: #404BBF;
 }
 /* Секция 2 */
@@ -132,6 +133,8 @@ background-color: #2E2F42;
         font-weight: 400;
         font-style: normal;
         color: #434455;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 /* Секция 3 */
 .section-three {
@@ -146,6 +149,7 @@ background-color: #2E2F42;
         text-align: center;
         text-transform: capitalize;
         color: #2E2F42;
+        line-height: 1.11;
 }
 .list-class {
     background-color: #FFFFFF;
@@ -178,6 +182,7 @@ background-color: #2E2F42;
         text-align: center;
         color: #2E2F42;
         text-transform: capitalize;
+        line-height: 1.11;
     }
 .section-four-text .portfolio-name {
         font-family: "Roboto", sans-serif;
@@ -195,6 +200,7 @@ background-color: #2E2F42;
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
+        line-height: 1.5;
 }
 /* Ноги  */
 .footer-logo {
