@@ -38,3 +38,50 @@
 .section1-background {
 background-color: #2E2F42;
 }
+.title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #FFFFFF;
+}
+.button-blue {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: #4D5AE5;
+        color: #FFFFFF;
+        border-color: #4D5AE5;
+}
+/* Секция 2 */
+.section-2-text .title-s2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #2E2F42;
+}
+.section-2-text .paragraph-section-2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #434455;
+}
+/* Секция 3 */
+.title-2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #2E2F42;
+}
+.section-3-text .name-styles {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #2E2F42;
+}
+.section-3-text .proffesion {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #434455;
+}
+/* Секция 4 */
