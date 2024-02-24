@@ -28,11 +28,35 @@
         font-weight: 500;
         font-style: normal;
 }
+/* СТИЛИ */
+/* НАВИГАЦИЯ */
+.logo-head {
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        font-optical-sizing: auto;
+        
+        color: #4d5ae5;
+        text-transform: uppercase;
+}
+.logo-head-2 {
+    color: #2e2f42;
+    
+}
     .contacts .my-contacts {
         color: #434455;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
+    }
+    /* Тело */
+    .body-style {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     }
 /* Секция 1 */
 .section1-background {
@@ -113,6 +137,10 @@ background-color: #2E2F42;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        font-size: 18px;
+        }
+        .footer-logo2 {
+            color: #f4f4fd;
         }
 .footer-background {
     background-color: #2E2F42;
@@ -123,4 +151,3 @@ background-color: #2E2F42;
         font-style: normal;
         color: #F4F4FD;
 }
-        
