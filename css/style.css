@@ -35,6 +35,7 @@ ul ,ol {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-style: normal;
+        padding: 24px 0;
 }
 /* СТИЛИ */
 /* НАВИГАЦИЯ */
@@ -65,8 +66,7 @@ ul ,ol {
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
-        display: flex;
-        gap: 40px
+        
 }
 .head-page .link-head:hover {
     color:#404bbf
@@ -248,15 +248,32 @@ background-color: #2E2F42;
     .header-styles {
         border-bottom: 1px solid #e7e9fc;
     }
-.nav-styles {
-    display: flex;
-}
+
 .container {
     width: 1158px;
     padding: 0 15px;
+    margin: 0;
 
 }
 .nav-style {
     display: flex;
     align-items: center;
+
+}
+.container .head-page {
+    display: flex;
+}
+.container .contacts{
+    display: flex;
+}
+.head-page {
+    display: flex;
+    gap: 40px;
+}
+.head-page .link-head {
+    padding: 24px 0;
+}
+.contacts {
+    display: flex;
+    gap: 40px;
 }
