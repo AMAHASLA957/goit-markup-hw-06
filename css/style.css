@@ -49,6 +49,8 @@ ul ,ol {
         line-height: 1.17;
         color: #4d5ae5;
         text-transform: uppercase;
+        display: flex;
+        margin-right: 76px
 }
 .logo-head-second {
     color: #2e2f42;
@@ -63,6 +65,8 @@ ul ,ol {
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+        display: flex;
+        gap: 40px
 }
 .head-page .link-head:hover {
     color:#404bbf
@@ -237,4 +241,22 @@ background-color: #2E2F42;
         line-height: 1.5;
         letter-spacing: 0.02em
 }
-       
+       /* Старт зд 3 */
+       img {
+        display: block;
+       }
+    .header-styles {
+        border-bottom: 1px solid #e7e9fc;
+    }
+.nav-styles {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+
+}
+.nav-style {
+    display: flex;
+    align-items: center;
+}
