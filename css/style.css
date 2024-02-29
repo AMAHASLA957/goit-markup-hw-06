@@ -22,6 +22,14 @@
     font-weight: 700;
     font-style: normal;
 }
+h1 ,h2 ,h3 ,p {
+    margin-left: 0;
+    margin-right: 0;
+}
+ul ,ol {
+    padding-left: 0;
+}
+
 .head-page .link-head {
     color: #2E2F42;
         font-family: "Roboto", sans-serif;
