@@ -260,12 +260,6 @@ background-color: #2E2F42;
     align-items: center;
 
 }
-.container .head-page {
-    display: flex;
-}
-.container .contacts{
-    display: flex;
-}
 .head-page {
     display: flex;
     gap: 40px;
@@ -276,4 +270,8 @@ background-color: #2E2F42;
 .contacts {
     display: flex;
     gap: 40px;
+    
+}
+.head-styles {
+    display: flex;
 }
