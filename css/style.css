@@ -272,3 +272,6 @@ background-color: #2E2F42;
     gap: 40px;
     
 }
+.header-styles .container {
+    display: flex;
+}
