@@ -23,11 +23,12 @@
     font-style: normal;
 }
 h1 ,h2 ,h3 ,p {
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 ul ,ol {
     padding-left: 0;
+    margin: 0;
 }
 
 .head-page .link-head {
@@ -66,6 +67,7 @@ ul ,ol {
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+        display: block;
         
 }
 .head-page .link-head:hover {
@@ -100,6 +102,7 @@ font-style: normal;
     background-color: #FFFFFF;
     }
 /* Секция 1 */
+
 .section-first-background {
 background-color: #2E2F42;
 padding: 188px 0;
@@ -114,6 +117,8 @@ padding: 188px 0;
         color: #FFFFFF;
         line-height: 1.07;
         max-width: 496px;
+        margin: 0 auto;
+        padding-bottom: 48px;
 }
 /* Кнопка */
 .button-blue {
@@ -131,6 +136,7 @@ padding: 188px 0;
         height: 56px;
         border: none;
         border-radius: 4px;
+        margin: 0 auto;
 }
 .button-blue:hover {
     background-color: #404BBF;
@@ -273,7 +279,9 @@ padding: 188px 0;
         font-style: normal;
         color: #F4F4FD;
         line-height: 1.5;
-        letter-spacing: 0.02em
+        letter-spacing: 0.02em;
+        width: 264px;
+        height: 72px;
 }
        /* Старт зд 3 */
        img {
@@ -286,7 +294,7 @@ padding: 188px 0;
 .container {
     width: 1158px;
     padding: 0 15px;
-    margin: 0;
+    margin: 0 auto;
 
 }
 .nav-style {
@@ -304,11 +312,15 @@ padding: 188px 0;
 .contacts {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+   
     
 }
 .header-styles .container {
     display: flex;
     margin: 0 auto;
+    justify-content: space-between;
+  
     
 }
 
