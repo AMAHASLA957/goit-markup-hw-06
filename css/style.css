@@ -364,6 +364,7 @@ margin: 0 auto;
 .footer-background {
     padding: 100px 0;
     background-color: #2E2F42;
+    
 }
 .footer-text {
         font-family: "Roboto", sans-serif;
@@ -387,7 +388,10 @@ margin: 0 auto;
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-
+}
+.footer-icon {
+    display: flex;
+    align-items: baseline
 }
 .nav-style {
     display: flex;
