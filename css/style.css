@@ -37,6 +37,7 @@ ul ,ol {
         font-weight: 500;
         font-style: normal;
         
+        
 }
 /* СТИЛИ */
 /* НАВИГАЦИЯ */
@@ -58,9 +59,9 @@ ul ,ol {
     color: #2e2f42;
     
 }
-.current {
+.nav-style .head-page .current {
     position: relative;
-    color: #404bbf;;
+    color: #404bbf;
 }
 .current::after {
     content: "";
@@ -274,13 +275,14 @@ margin: 0 auto;
         0px 2px 1px rgba(46, 47, 66, 0.08);
         
 }
-.list-class-four .sec-four-paragraph:hover{
+.list-class-four:hover .sec-four-paragraph {
     transform: translateY(0%);
 }
 
 .list-class-four {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .class-text-four {
@@ -345,6 +347,21 @@ margin: 0 auto;
 }
 
 /* Ноги  */
+.footer-background .container-footer {
+margin-right: 120px;
+}
+.paragraph-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    
+}
+.footer-icon {
+    
+}
 .footer-logo {
         font-family: "Raleway", sans-serif;
         font-optical-sizing: auto;
@@ -389,7 +406,7 @@ margin: 0 auto;
     padding: 0 15px;
     margin: 0 auto;
 }
-.footer-icon {
+.footer-container {
     display: flex;
     align-items: baseline
 }
