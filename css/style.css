@@ -790,7 +790,7 @@ textarea:focus {
     margin-bottom: 24px;
 
 }
-.visually-hidden-check {
+.visually-hidden {
     position: absolute;
     top: 0;
     left: 0;
