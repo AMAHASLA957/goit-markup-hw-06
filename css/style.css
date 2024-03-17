@@ -723,12 +723,10 @@ display: block;
 margin-bottom: 4px;
 
 }
-.label-input:focus .icons-modal-svg {
+.input-text:focus + .icons-modal-svg {
     fill: #4D5AE5;
 }
-.label-input:hover .icons-modal-svg {
-    fill: #4D5AE5;
-}
+
 
 .label-input {
     position: relative;
