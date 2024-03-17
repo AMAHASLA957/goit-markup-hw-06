@@ -549,3 +549,104 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: baseline;
 }
+.button-footer {
+    font-family: "Roboto",
+    sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border-color: #4D5AE5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    min-width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+                
+}
+.svg-footer {
+            width: 24px;
+            height: 24px;
+            fill: #f4f4fd;
+}
+.footer-button-cont {
+ display: flex;
+ margin-top: 46px;
+
+}
+
+
+/* Форма футера */
+.form-footer {
+            width: 264px;
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+            border: 1px solid white;
+            height: 40px;
+            border-radius: 4px;
+}           
+.list-footer-forms {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-left: 80px;
+    height: 40px;
+    
+}
+.form-input {
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: "Roboto",
+    sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 264px;    
+       
+    line-height: 24px;
+       
+        
+}
+
+.form-input:placeholder-shown {
+    border-color: white;
+}
+
+
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.label-text {
+         margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        
+}
+
+
+
+.form-input::placeholder {
+    color: white;
+}
+
+.form {
+    display: flex;
+    
+}
