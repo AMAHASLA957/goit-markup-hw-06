@@ -815,10 +815,11 @@ textarea:focus {
     fill: transparent;
     display: inline-flex;
 }
-.check-input:checked  .check-icons {
+.check-input:checked .check-span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
+    
 }
 .link-check {
     color: #4d5ae5;
