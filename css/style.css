@@ -723,7 +723,10 @@ display: block;
 margin-bottom: 4px;
 
 }
-.label-input:focus .icons-modal-svg {
+.user-name:focus .icons-modal-svg {
+    fill: #4D5AE5;
+}
+.user-name:hover .icons-modal-svg {
     fill: #4D5AE5;
 }
 
