@@ -568,6 +568,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 24px;
                 
 }
 .svg-footer {
@@ -583,25 +584,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /* Форма футера */
-.form-footer {
-            width: 264px;
-            display: flex;
-            flex-direction: column;
-            padding: 8px;
-            border: 1px solid white;
-            height: 40px;
-            border-radius: 4px;
-}           
-.list-footer-forms {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    margin-left: 80px;
-    height: 40px;
-    
-}
+         
+
 .form-input {
-    padding: 7px;
+    padding-left: 16px;
     border: 1px solid white;
     border-radius: 4px;
     font-family: "Roboto",
@@ -611,10 +597,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
     background-color: rgba(0, 0, 0, 0);
     width: 264px;    
-       
+    height: 40px;
     line-height: 24px;
-       
-        
+    background-color: transparent;
+    letter-spacing: 0.04em;
+    line-height: 2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #fff;
 }
 
 .form-input:placeholder-shown {
@@ -624,20 +613,18 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .form-label {
-    display: flex;
-    flex-direction: column;
-    
+    gap: 24px;
     
 }
 
-.label-text {
-         margin-bottom: 24px;
+.paragraph-form {
+         margin-bottom: 16px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        
+        margin-left: 80px;
 }
 
 
@@ -645,8 +632,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .form-input::placeholder {
     color: white;
 }
-
 .form {
     display: flex;
-    
+    margin-left: 80px;
+}
+.footer-form {
+
 }
