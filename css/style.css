@@ -723,7 +723,7 @@ display: block;
 margin-bottom: 4px;
 
 }
-.user-name:focus .icons-modal-svg {
+.label-input:focus .icons-modal-svg {
     fill: #4D5AE5;
 }
 
@@ -787,23 +787,15 @@ textarea:focus {
     margin-bottom: 24px;
 
 }
-/* .visually-hidden-check {
+.visually-hidden-check {
     position: absolute;
     top: 0;
     left: 0;
     clip-path: inset(100%);
     
-} */
-
-.visually-hidden-check {
-        opacity: 0;
-        position: absolute;
-        z-index: -1;
-        width: 0;
-        height: 0;
-        margin: 0;
-        padding: 0;
 }
+
+
 .check-label {
     font-size: 12px;
     line-height: 1.17;
