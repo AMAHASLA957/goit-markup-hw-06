@@ -49,6 +49,7 @@ ul ,ol {
     .container {
         max-width: 768px;
         margin-left: 16px;
+        margin: 0 auto;
     }
 
 }
@@ -57,6 +58,7 @@ ul ,ol {
     .container {
         max-width: 1158px;
         padding: 0 15px;
+        margin: 0 auto;
     }
 }
 
@@ -454,6 +456,7 @@ margin-top: 32px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    flex-direction: column;
 }
 
 .list-class-four:hover {
@@ -467,7 +470,6 @@ margin-top: 32px;
 }
 
 .list-class-four {
-    width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -549,6 +551,7 @@ margin-right: 120px;
         font-size: 18px;
         display: inline-block;
         margin-bottom: 16px;
+        margin-left: 108px;
         }
         .footer-logo-second {
             color: #f4f4fd;
@@ -567,10 +570,12 @@ margin-right: 120px;
         letter-spacing: 0.02em;
         width: 264px;
         height: 72px;
+        margin-left: 16px;
 }
        /* Старт зд 3 */
        img {
         display: block;
+        width: 100%;
        }
     .header-styles {
         border-bottom: 1px solid #e7e9fc;
@@ -655,12 +660,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin-left: 112px;
 }
 .list-footer {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 16px;
+    margin-left: 56px;
 }
 
 .list-link-footer:hover {
@@ -697,6 +704,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-background .container {
     display: flex;
     align-items: baseline;
+    flex-direction: column;
+    gap: 70px;
 }
 .button-footer {
     font-family: "Roboto",
@@ -709,7 +718,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    min-width: 165px;
     height: 40px;
     border: none;
     border-radius: 4px;
@@ -717,6 +725,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 165px;
+    margin-left: 77px;
     
                 
 }
@@ -754,6 +764,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #fff;
+    margin-left: 16px;
 }
 
 .form-input:placeholder-shown {
@@ -774,7 +785,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        margin-left: 80px;
+        margin-left: 122px;
 }
 
 
@@ -784,12 +795,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form {
     display: flex;
-    margin-left: 80px;
+    flex-direction: column;
     gap: 24px;
 }
-.footer-form {
 
-}
 
 
 /* МОДЕЛЬНОЕ ОКНО */
@@ -1019,6 +1028,7 @@ textarea:focus {
   }
 
 @media screen and (min-width: 768px) {
+      
 
         .section-second-text {
             display: grid;
@@ -1033,13 +1043,29 @@ textarea:focus {
             grid-template-columns: repeat(2, 1fr);
             row-gap: 64px;
             column-gap: 16px;
-             
+                
           }
           .title-second {
-            margin-left: -173px;
             position: relative;
           }
-
+           .section-four-text {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+           }
+         
+      .footer-background .container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          
+      }
+     .form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
+    .button-footer {
+        margin-left: 0;
+    }
 
     }
 
@@ -1048,12 +1074,24 @@ textarea:focus {
 
 
 @media screen and (min-width: 1158px) {
-    .title-first {
-        
-    }
-.section-second-text .list-second-style {
-        width: calc((100% - 72px) / 4);
-    }
+ 
+  
+
+
+    
+     .section-second-text .title-s-second {
+             font-size: 20px;
+             font-weight: 500;
+             line-height: 24px;
+    
+         }
+    
+         .section-second-text .paragraph-section-second {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+             
+         }
 
     .sec-two-icons {
         display: flex;
@@ -1067,9 +1105,11 @@ textarea:focus {
     }
 
     .section-second-text{
-        margin-left: 156px;
+    align-items: center;
+        justify-content: center;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     }
   .personall-name-class {
     width: 264px;
@@ -1091,7 +1131,50 @@ textarea:focus {
      margin-left: -20px;
      position: relative;
  }
- 
+ .section-four-text {
+    display: flex;
+    flex-direction: row;
+ }
+ .list-class-four {
+    width: calc((100% - 48px) / 3);
+ }
+.footer-background .container {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+ .form {
+     margin-left: 80px;
+    flex-direction: row;
+ }
+
+.footer-logo {
+    margin: 0;
+}
+.footer-text {
+    margin: 0 auto;
+}
+.footer-first-cont{
+  display: flex;
+  flex-direction: column;
+gap: 16px;
+}
+.paragraph-footer {
+    margin-left: 0;
+}
+.list-footer {
+    margin-left: 0;
+}
+.paragraph-form {
+    margin-left: 80px;
+}
+.form-input {
+    margin-left: 0;
+}
+.button-footer {
+    min-width: 165px;
+    margin-left: 0;
+}
 }
 
 
