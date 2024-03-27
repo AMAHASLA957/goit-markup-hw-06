@@ -1111,7 +1111,10 @@ textarea:focus {
 
 @media screen and (min-width: 1158px) {
  
-  
+.contacts .my-contacts {
+    font-size: 16px;
+    line-height: 24px;
+}
 
 
     
@@ -1119,6 +1122,7 @@ textarea:focus {
              font-size: 20px;
              font-weight: 500;
              line-height: 24px;
+             padding-left: 0;
     
          }
     
@@ -1126,6 +1130,7 @@ textarea:focus {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 24px;
+                padding-left: 0;
              
          }
 
@@ -1162,14 +1167,13 @@ textarea:focus {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    padding-left: 0;
 }
- .title-second {
-     margin-left: -20px;
-     position: relative;
- }
+ 
  .section-four-text {
     display: flex;
     flex-direction: row;
+    padding: 0;
  }
  .list-class-four {
     width: calc((100% - 48px) / 3);
@@ -1178,6 +1182,12 @@ textarea:focus {
     display: flex;
     align-items: baseline;
     flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 15px;
+    margin: 0 auto;
+    gap: 0;
+    
+    
 }
  .form {
      margin-left: 80px;
@@ -1193,7 +1203,8 @@ textarea:focus {
 .footer-first-cont{
   display: flex;
   flex-direction: column;
-gap: 16px;
+  gap: 16px;
+  margin-right: 120px;
 }
 .paragraph-footer {
     margin-left: 0;
