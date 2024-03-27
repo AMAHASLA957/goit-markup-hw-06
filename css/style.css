@@ -193,7 +193,7 @@ ul ,ol {
 }
 .addres-class {
     font-style: normal;
-    display: none;
+    display: flex;
     margin-left: auto;
 }
 .contacts .my-contacts {
