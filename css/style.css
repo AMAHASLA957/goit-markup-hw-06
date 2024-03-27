@@ -116,7 +116,11 @@ ul ,ol {
     display: none;
     
 }
-
+.addres-class {
+    font-style: normal;
+    display: none;
+    margin-left: auto;
+}
 
 
 /* Контактная информация */
@@ -125,11 +129,7 @@ ul ,ol {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.addres-class {
-font-style: normal;
-display: none;
-margin-left: auto;
-}
+
 
 
 
@@ -190,6 +190,11 @@ margin-left: auto;
 
 .head-page .link-head:focus {
     color: #404bbf;
+}
+.addres-class {
+    font-style: normal;
+    display: none;
+    margin-left: auto;
 }
 .contacts .my-contacts {
     
@@ -1028,6 +1033,167 @@ textarea:focus {
     height: 16px;
   }
 
+/* модельное окно мобилка */
+
+.modal-overlay-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+
+
+}
+.modal-overlay-mobile.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    min-height: 584px;
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 40px;
+}
+.nav-style-m .head-page-m .current-m {
+    position: relative;
+    color: #404bbf;
+}
+
+.head-page-m .link-head-m {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    margin-bottom: 40px;
+    padding-left: 16px;
+}
+.head-page-m .link-head-m {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.nav-style-m .head-page-m .link-head-m:hover {
+    color: #404bbf
+}
+
+.nav-style-m .head-page-m .link-head-m:focus {
+    color: #404bbf;
+}
+ 
+
+.addres-class-m {
+    font-style: normal;
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-m .my-contacts-m {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-m .my-contacts-m:hover {
+    color: #404bbf;
+}
+
+.contacts-m .my-contacts-m:focus {
+    color: #404bbf;
+}
+
+
+
+.contacts-m {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 156px;
+    padding-left: 16px;
+}
+
+.current::after {
+    bottom: -68%;
+}
+
+.list-email-color-m .my-contacts-m {
+    color: #4D5AE5;
+}
+
+
+.list-m {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+       gap: 40px;
+        margin-top: 48px;
+        padding-left: 16px;
+    }
+
+.list-link-m:hover {
+    background-color: #404BBF;
+}
+
+.list-link-m:focus {
+    background-color: #404BBF;
+    ;
+}
+
+.list-link-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-img-m {
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px) {
     .title-first {
         font-size: 56px;
@@ -1110,6 +1276,10 @@ textarea:focus {
 
 
 @media screen and (min-width: 1158px) {
+    .current::after {
+            display: flex;
+            bottom: -1%;
+        }
  
 .contacts .my-contacts {
     font-size: 16px;
@@ -1155,7 +1325,7 @@ textarea:focus {
   .personall-name-class {
     width: 264px;
     height: 428px;
-    /* padding: 32px 0; */
+    
 }
 
 .section-three-text .list-class {
