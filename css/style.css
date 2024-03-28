@@ -1359,14 +1359,13 @@ textarea:focus {
 @media screen and (min-width: 1158px) {
     .current::after {
             display: flex;
-            bottom: -1%;
         }
  
-.contacts .my-contacts {
-    font-size: 16px;
-    line-height: 24px;
-}
 
+          .contacts .my-contacts {
+              font-size: 16px;
+              line-height: 24px;
+          }
 
     
      .section-second-text .title-s-second {
