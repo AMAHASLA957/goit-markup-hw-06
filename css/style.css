@@ -1087,6 +1087,51 @@ textarea:focus {
     padding-right: 0;
     padding-bottom: 40px;
 }
+
+.modal-button-m {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: white;
+}
+
+.modal-button-m:hover {
+    border: none;
+    background-color: #404bbf;
+}
+
+.modal-button-m:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
+.icons-modal-m {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-button-m:hover .icons-modal-m {
+    fill: #ffffff;
+}
+
+.modal-button-m:focus .icons-modal-m {
+    fill: #ffffff;
+}
+
+
+
+
 .nav-style-m .head-page-m .current-m {
     position: relative;
     color: #404bbf;
