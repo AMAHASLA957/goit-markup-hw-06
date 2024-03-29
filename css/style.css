@@ -41,7 +41,7 @@ ul ,ol {
 }
 .container {
     max-width: 320px;
-   
+   padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -295,7 +295,7 @@ ul ,ol {
 .hero {
 background-color: #2E2F42;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
-padding: 188px 0;
+padding: 112px 0;
 max-width: 1440px;
 position:relative;
 background-repeat: no-repeat;
@@ -315,7 +315,7 @@ margin: 0 auto;
         line-height: 1.07;
         max-width: 496px;
         margin: 0 auto;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
         position: relative;
             
 }
@@ -375,7 +375,6 @@ margin: 0 auto;
         line-height: 24px;
         letter-spacing: 0.02em;
         font-size: 16px;
-        padding-left: 16px;
 }
 .sec-two-icons {
     display: none;
@@ -410,12 +409,10 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding-left: 28px;
+    
 }
 .section-three-text .list-class {
-    width: 264px;
-    height: 428px;
-    
+   
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -444,7 +441,7 @@ margin: 0 auto;
         color: #434455;
 }
 .personall-name-class {
-margin-top: 32px;
+padding: 32px 0;
 }
 .list {
     display: flex;
@@ -452,9 +449,7 @@ margin-top: 32px;
     gap: 24px;
     list-style: none;
     margin-top: 8px;
-    margin-bottom: -150px;
-    margin-left: 16px;
-    margin-right: 16px;
+
 
 }
 /* Секция 4 */
@@ -464,7 +459,6 @@ margin-top: 32px;
     column-gap: 24px;
     row-gap: 48px;
     flex-direction: column;
-    padding: 0 16px;
 }
 
 .list-class-four:hover {
@@ -559,7 +553,7 @@ margin-right: 120px;
         font-size: 18px;
         display: inline-block;
         margin-bottom: 16px;
-        margin-left: 102px;
+        padding-left: 86px;
         }
         .footer-logo-second {
             color: #f4f4fd;
@@ -577,7 +571,6 @@ margin-right: 120px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         width: 264px;
-        margin-left: 16px;
 }
        /* Старт зд 3 */
        img {
@@ -667,14 +660,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-    margin-left: 112px;
+    padding-left: 98px;
 }
 .list-footer {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 16px;
-    margin-left: 56px;
+    padding-left: 40px;
 }
 
 .list-link-footer:hover {
@@ -733,7 +726,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     align-items: center;
     max-width: 165px;
-    margin-left: 77px;
+    margin-left: 61px;
     
                 
 }
@@ -770,7 +763,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #fff;
-    margin-left: 16px;
 }
 
 .form-input:placeholder-shown {
@@ -791,7 +783,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        margin-left: 122px;
+        padding-left: 106px;
 }
 
 
@@ -1076,8 +1068,8 @@ textarea:focus {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 320px;
-    min-height: 584px;
+    width: 100%;
+    height: 100%;
     background: #fcfcfc;
     /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px; */
@@ -1259,12 +1251,12 @@ textarea:focus {
 @media screen and (min-width: 768px) {
     .title-first {
         font-size: 56px;
-        padding-bottom: 36px;
+        margin-bottom: 36px;
     }
       
         .section-second-text .title-s-second {
             text-align: left;
-            padding-left: 16px;
+            
         }
         .section-second-text {
             display: grid;
@@ -1273,15 +1265,20 @@ textarea:focus {
             row-gap: 72px;
         }
 
+        .section-three .container {
+            max-width: 584px;
+        }
+
           .section-three-text {
             width: 78px;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             row-gap: 64px;
             column-gap: 24px;
-            padding-left: 108px;    
           }
-          
+          .section-three-text .list-class {
+            width: 264px;
+          }  
            .section-four-text {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -1306,19 +1303,19 @@ textarea:focus {
              flex-direction: row;
              gap: 72px 24px;
              flex-wrap: wrap;
-             padding-left: 108px;
+             max-width: 564px;
         }
     .footer-logo {
-        margin-left: 0;
+        padding-left: 0;
     }
     .footer-text {
-        margin-left: 0;
+        padding-left: 0;
     }
     .paragraph-footer {
-        margin-left: 0;
+        padding-left: 0;
     }
     .list-footer {
-        margin-left: 0;
+        padding-left: 0;
         justify-content: left;
     }
     .footer-first-cont {
@@ -1327,6 +1324,9 @@ textarea:focus {
     .form-input {
         margin-left: 0;
         width: 264px;
+    }
+    .paragraph-form {
+        padding-left: 0;
     }
 
     .modal {
@@ -1357,6 +1357,9 @@ textarea:focus {
 
 
 @media screen and (min-width: 1158px) {
+    .hero {
+        padding: 188px 0;
+    }
     .current::after {
             display: flex;
         }
@@ -1404,13 +1407,16 @@ textarea:focus {
     }
   .personall-name-class {
     width: 264px;
-    height: 428px;
+    
     
 }
 
 .section-three-text .list-class {
     width: calc((100% - 72px) / 4);
 
+}
+.section-three .container {
+    max-width: 1158px;
 }
 .section-three-text {
     width: 100%;
@@ -1424,6 +1430,9 @@ textarea:focus {
     display: flex;
     flex-direction: row;
     padding: 0;
+ }
+ .footer-background .container {
+    max-width: 1158px;
  }
  .list-class-four {
     width: calc((100% - 48px) / 3);
@@ -1445,7 +1454,8 @@ textarea:focus {
  }
 
 .footer-logo {
-    margin: 0;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 .footer-text {
     margin: 0 auto;
@@ -1457,10 +1467,10 @@ textarea:focus {
   margin-right: 120px;
 }
 .paragraph-footer {
-    margin-left: 0;
+    padding-left: 0;
 }
 .list-footer {
-    margin-left: 0;
+    padding-left: 0;
 }
 .paragraph-form {
     margin-left: 80px;
