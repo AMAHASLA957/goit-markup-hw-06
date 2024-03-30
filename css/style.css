@@ -293,16 +293,83 @@ ul ,ol {
 /* Секция 1 */
 
 .hero {
-background-color: #2E2F42;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
-padding: 112px 0;
-max-width: 1440px;
-position:relative;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-margin: 0 auto;
+    color: #ffffff;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: #2e2f42;
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/back-mob-x1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+
+
+
+@media only screen and (max-width: 767px) {
+    @media only screen and (min-resolution: 192dpi) {
+        .hero {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/back-mobile-x2.jpg);
+        }
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        max-width: 768px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/back-tablet-x1.jpg);
+    }
+
+    @media only screen and (min-resolution: 192dpi) {
+        .hero {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/back-tablet-x2.jpg);
+        }
+    }
+
+  
+}
+
+@media only screen and (min-width: 1158px) {
+    .hero {
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/back-x1.jpg);
+    }
+
+    @media only screen and (min-resolution: 192dpi) {
+        .hero {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/back-x2.jpg);
+        }
+    }
+
+   
 }
 .title-first {
         font-family: "Roboto" sans-serif;
@@ -1449,7 +1516,6 @@ textarea:focus {
     
 }
  .form {
-     margin-left: 80px;
     flex-direction: row;
  }
 
@@ -1472,7 +1538,7 @@ textarea:focus {
 .list-footer {
     padding-left: 0;
 }
-.paragraph-form {
+.footer-form {
     margin-left: 80px;
 }
 .form-input {
